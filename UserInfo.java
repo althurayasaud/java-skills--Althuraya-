@@ -60,7 +60,7 @@ public class UserInfo {
         boolean isActive = scanner.nextBoolean();
 
         UserInfo user = new UserInfo( name , age, email, isActive);
-        user.displayInfo();
+        user.displayInfo();//problem solved
 
         scanner.close();
 
